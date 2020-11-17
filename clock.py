@@ -41,5 +41,6 @@ minTime= Entry(clock,textvariable = min,bg = "pink",width = 15).place(x=290,y=30
 secTime = Entry(clock,textvariable = sec,bg = "pink",width = 15).place(x=330,y=30)
 #To take the time input by user:
 submit = Button(clock,text = "Set Alarm",fg="red",width = 10,command = actual_time, font = ("Helvetica",10,"bold")).place(x =280,y=60)
-clock.mainloop()
+
 #Execution of the window.
+clock.mainloop()
